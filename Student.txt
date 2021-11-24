@@ -1,0 +1,12 @@
+
+package inheritence;
+
+
+public class Student extends Person{
+    int rollNo;
+    String grade;
+    
+    void study(){
+        System.out.println("Study at "+ grade);
+    }
+}

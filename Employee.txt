@@ -1,0 +1,11 @@
+
+package inheritence;
+
+public class Employee extends Person {
+    int empId;
+    double salary;
+    
+    void work(){
+        System.out.println("work for "+ salary);
+    }
+}

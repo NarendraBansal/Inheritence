@@ -1,0 +1,16 @@
+
+package inheritence;
+
+public class Person {
+String name;
+int age;
+
+void walk(){  // method walk
+    if(age<40){
+        System.out.println("He is young and walk strait");
+    }
+    else{
+        System.out.println("He is a Older and he walk slow ");
+    }
+}
+}

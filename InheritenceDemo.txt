@@ -1,0 +1,20 @@
+
+package inheritence;
+
+
+public class InheritenceDemo {
+
+    public static void main(String[] args) {
+        Person p1 = new Person();
+         p1.name="Allan";p1.age=30;p1.walk();
+         
+         Employee e1 = new Employee();
+         e1.empId=3434;e1.salary=4350.95;         
+//e1.name="John";p1.age=20;e1.work();
+          e1.empId=1;e1.salary=2000;e1.work();
+       Student s1 = new Student();
+       s1.grade="A";s1.rollNo=12323;
+    }
+    }
+    
+
